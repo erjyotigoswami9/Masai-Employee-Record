@@ -1,0 +1,85 @@
+/* Fill CSS here */
+
+form{
+   
+    width: fit-content;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+form label ,input , select{
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 6%;
+    
+}
+input,select{
+    width: 95%;
+    height: 26px;
+    
+}
+.input-blue{
+    background-color: rgb(114, 114, 187);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(66, 66, 137);
+}
+label{
+    font-weight: bold;
+}
+div{
+    display: flex;
+    overflow-x: auto;
+}
+table{
+    margin-left: 5%;
+    /* border: 1px solid black; */
+    width: 70%;
+    height: fit-content;
+    border-spacing: 0px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+thead{
+    background-color: rgb(114, 114, 187);
+    color: white;
+}
+th{
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    width: max-content;
+}
+td{
+    /* border: 2px solid orange; */
+   width: max-content;
+   /* padding-left: 1%;
+   padding-right: 1%; */
+   text-align: center;
+}
+button{
+    width: 90%;
+    background-color: rgb(171, 53, 53);
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: antiquewhite;
+}
+@media only screen and (max-width : 900px) {
+     div{
+        display: flex;
+        flex-direction: column;
+     }
+     table{
+        margin-top: 2%;
+     }
+}
+
